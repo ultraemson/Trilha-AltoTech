@@ -1,0 +1,83 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu img {
+  width: 200px;
+  padding-left: 5rem;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.navbar ul {
+  display: flex;
+  gap: 2rem;
+  background: var(--cor-do-titulo-nomeGuerriro);
+  padding: 1rem;
+  border: solid 2px;
+  border-radius: 1rem;
+}
+.navbar ul li {
+  list-style-type: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+}
+.escolher-personagem {
+  background-color: rgba(0, 0, 0, 0.39);
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+}
+.escolher-personagem h2 {
+  background: var(--cor-do-titulo-nomeGuerriro);
+  padding: 1rem;
+
+  border-radius: 16px;
+  border: solid;
+  margin: 1rem auto;
+}
+
+.personagem-link {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 16px;
+  border: solid 2px;
+}
+
+.dados-guerreiros {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(179, 196, 27, 0.027);
+  padding: 0.8rem;
+}
+.dados-guerreiros a {
+  text-decoration: none;
+}
+.dados-guerreiros img {
+  height: 150px;
+  border-radius: 100%;
+  display: grid;
+}
+.dados-guerreiros button {
+  background: var(--cor-do-titulo-nomeGuerriro);
+  border: solid 2px;
+  border-radius: 1rem;
+  text-decoration: none;
+  margin-top: 1rem;
+  font-family: "Press Start 2P", cursive;
+}
+.dados-guerreiros button:hover {
+  background: rgba(63, 56, 56, 0.493);
+  padding: 1.2rem;
+  transition: 0.2s ease;
+  border-radius: 1rem;
+  color: wheat;
+}

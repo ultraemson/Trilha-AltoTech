@@ -1,0 +1,67 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar {
+  border: solid 1px;
+  border-radius: 16px;
+  background: #22161636;
+  padding: 1rem;
+}
+
+.menu-item a:hover {
+  background: rgba(63, 56, 56, 0.493);
+  padding: 0.3rem;
+  transition: 0.2s ease;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.personagem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 60%;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: var(--cor-de-fundo-nomeGuerriro);
+  border-radius: 1rem;
+}
+.personagem h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--cor-do-titulo-nomeGuerriro);
+  background: var(--cor-de-fundo);
+  border-radius: 5px;
+  border: 2px solid #fff;
+  padding: 0.4rem;
+}
+.descricao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  padding: 1rem;
+  border: 3px solid;
+  border-radius: 1rem;
+}
+
+.descricao p {
+  width: 80%;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: cursive;
+  color: #fff;
+}
+.descricao img {
+  width: 50%;
+  border-radius: 30px;
+}
+.table {
+  width: 45%;
+  text-align: center;
+  color: #fff;
+}
