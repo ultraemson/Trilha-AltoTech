@@ -16,8 +16,9 @@ header {
 }
 
 body {
-  background-image: url(../img/background.jpg);
+  background: url(../img/background.jpg) no-repeat;
   font-family: "Press Start 2P", cursive;
+  background-size: cover ;
 }
 button {
   padding: 1rem;
@@ -30,3 +31,5 @@ button {
   display: flex;
   justify-content: center;
 }
+
+
