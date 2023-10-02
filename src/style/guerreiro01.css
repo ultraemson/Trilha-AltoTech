@@ -65,3 +65,37 @@
   text-align: center;
   color: #fff;
 }
+@media screen and (max-width: 768px) {
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar ul li{
+   
+    font-size: 13px;
+  }
+  .personagem h2 {
+    font-size: 30px;
+  }
+  .descricao {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .descricao p {
+    font-size: 15px;
+  }
+  .cabecalho-nome {
+    padding: .2rem;
+    font-size: 12px;
+  }
+  .informacao-dados{
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+
+}
