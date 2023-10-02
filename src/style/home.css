@@ -110,7 +110,11 @@
     color: rgb(49, 63, 92) ;
   }
 }
-
+@media screen and (max-width: 425px){
+  .personagem-link {
+        grid-template-columns: repeat(1,1fr);
+  }
+}
 @media screen and (max-width: 420px) {
   .escolher-personagem {
     width: 90%;
