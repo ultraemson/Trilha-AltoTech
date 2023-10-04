@@ -23,8 +23,15 @@
 .navbar ul li {
   list-style-type: none;
 }
-.navbar ul li a {
+.navbar-item {
+  padding: 1rem;
+  color: black;
   text-decoration: none;
+}
+.navbar-item:hover {
+  color: wheat;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.39);
 }
 .contente {
   display: flex;
