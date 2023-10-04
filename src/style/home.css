@@ -3,19 +3,21 @@
   justify-content: space-between;
 }
 .menu img {
-  width: 10%;
-  height: 10%;
-  padding-left: 5rem;
+
+  width: 5%;
+ 
+  padding: 1rem 4rem ;
 }
 .navbar {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 1rem 2rem;
 }
 .navbar ul {
   display: flex;
   gap: 2rem;
-  background: var(--cor-do-titulo-nomeGuerriro);
+  background: rgba(245, 245, 245, 0.541);
   padding: 1rem;
   border: solid 2px;
   border-radius: 1rem;
@@ -40,7 +42,7 @@
   padding: 2rem;
 
 }
-.escolher-personagem {
+.escolher-carro {
   background-color: rgba(0, 0, 0, 0.39);
   width: 80%;
   height: 100%;
@@ -51,47 +53,49 @@
   padding: 2rem;  
   gap: 3rem;
 }
-.escolher-personagem h2 {
-  background: var(--cor-do-titulo-nomeGuerriro);
+.escolher-carro h2 {
   padding: 1rem;
-
   border-radius: 16px;
   border: solid;
   margin: 1rem auto;
+  font-size: 35px;
 }
 
-.personagem-link {
+.carro-link {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   border-radius: 16px;
-  border: solid 2px;
+  border: solid 2px black;
 }
 
-.dados-guerreiros {
+.dados-carro {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
-  background: rgba(179, 196, 27, 0.027);
-  padding: 0.8rem;
+  background: var(--cor-de-fundo);
+  padding: 1rem;
+  border-radius: 0.8rem;
+  gap: 1rem;
+ 
 }
-.dados-guerreiros a {
+.dados-carro a {
   text-decoration: none;
 }
-.dados-guerreiros img {
+.dados-carro img {
   height: 150px;
-  border-radius: 100%;
+  border-radius: 10%;
   display: grid;
 }
-.dados-guerreiros button {
-  background: var(--cor-do-titulo-nomeGuerriro);
+.dados-carro button {
+  background: var(--cor-de-fundo);
   border: solid 2px;
   border-radius: 1rem;
   text-decoration: none;
   margin-top: 1rem;
   font-family: "Press Start 2P", cursive;
 }
-.dados-guerreiros button:hover {
+.dados-carro button:hover {
   background: rgba(63, 56, 56, 0.493);
 
   transition: 0.2s ease;
@@ -127,15 +131,15 @@
   }
 }
 @media screen and (max-width: 425px){
-  .personagem-link {
+  .carro-link {
         grid-template-columns: repeat(1,1fr);
   }
 }
 @media screen and (max-width: 420px) {
-  .escolher-personagem {
+  .escolher-carro {
     width: 90%;
   }
-  .personagem-link {
+  .carro-link {
     display: flex;
     flex-direction: column;
   }
@@ -143,7 +147,7 @@
 
 @media screen and (max-width: 320px) {
 
-  .escolher-personagem h2 {
+  .escolher-carro h2 {
     font-size: 16px;
   }
 }

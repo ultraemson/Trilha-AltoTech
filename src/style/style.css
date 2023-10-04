@@ -10,17 +10,17 @@ header {
   border-radius: 1rem;
 }
 :root {
-  --cor-de-fundo: rgb(70, 94, 75);
-  --cor-de-fundo-nomeGuerriro: #62896875;
-  --cor-do-titulo-nomeGuerriro: #fff8f8a1;
+  --cor-de-fundo: rgba(163, 163, 163, 0.836);
+  --cor-de-fundo-nomeGuerriro: #221a1a75;
+  --cor-do-titulo-nomeGuerriro: #000000a1;
 }
 
 
 
 body, html {
-  background-image: url(../img/background.jpg);
+  background: var(--cor-de-fundo);
   background-repeat: no-repeat;
-  font-family: "Press Start 2P", cursive;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-size: cover ;
 
 
