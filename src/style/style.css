@@ -22,8 +22,6 @@ body, html {
   background-repeat: no-repeat;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-size: cover ;
-
-
 }
 button {
   padding: 1rem;
@@ -35,7 +33,6 @@ button {
   height: 80%;
   display: flex;
   justify-content: center;
-  margin: 1rem;
 }
 
 
